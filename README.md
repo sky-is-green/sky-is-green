@@ -1,16 +1,31 @@
-## Hi there 👋
+### Hi there, I'm Ricky 👋
 
-<!--
-**sky-is-green/sky-is-green** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a solo dev, assisted by AI, currently researching and focused on LLM competency over long-context, Making AI plug-&-play (an AI sysAdmin, capable of wiring into the motherboard OC'ing functions of host system within bios),
+local-first LLM memory storage techniques that offer unique and portable ways of interacting with AI, making an ever-growing software suite of wired functions, test, and logs that acts as the basis of researching maximum
+possible capability of system/AI interactions.
 
-Here are some ideas to get you started:
+### 🛠️ My Tech Stack & Tools
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* **Languages:** JavaScript, TypeScript, Python
+* **Frameworks:** React, Next.js, Pytorch
+* **Databases:** PostgreSQL, MongoDB, SQLite
+
+### 📬 Connect With Me
+Reddit: u/BotSympathiser
+Hugging face: https://huggingface.co/SkyIsNotGreen (currently empty, will eventually contain custom AI trained on testing results of research.)
+
+
+*Note: Unless otherwise stated, the source code for my current projects is hosted in private repositories for intellectual property and security reasons.*
+
+
+
+
+
+
+
+
+
+
+
+
+
