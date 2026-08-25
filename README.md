@@ -2,24 +2,41 @@
 
 # 🌍 sky-is-green
 
-[![GitHub License](https://shields.io)](LICENSE)
-[![GitHub PRs](https://shields.io)](https://github.com)
+[![GitHub followers](https://img.shields.io/github/followers/sky-is-green?style=flat&label=Followers&logo=github)](https://github.com/sky-is-green?tab=followers)
+[![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsky-is-green&query=%24.public_repos&style=flat&label=Public%20repos&logo=github)](https://github.com/sky-is-green?tab=repositories)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-SkyIsNotGreen-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/SkyIsNotGreen)
+[![Reddit](https://img.shields.io/badge/Reddit-u%2FBotSympathiser-FF4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/BotSympathiser)
 
-I am a solo dev, assisted by AI, currently researching and focused on LLM competency over long-context, Making AI plug-&-play (an AI sysAdmin, capable of wiring into the motherboard OC'ing functions of host system within bios),
-local-first LLM memory storage techniques that offer unique and portable ways of interacting with AI, making an ever-growing software suite of wired functions, test, and logs that acts as the basis of researching maximum
-possible capability of system/AI interactions.
+I'm a solo developer, assisted by AI, focused on long-context LLM competency:
+local-first memory techniques, portable ways of interacting with models, and
+making AI plug-&-play — an AI sysadmin capable of wiring into the host board's
+firmware-level controls. Around that research I build an ever-growing software
+suite of wired functions, tests, and logs as the testbed for the maximum
+possible capability of system/AI interaction.
+
+## 🚀 Featured Project
+
+**[HiveMemory](https://github.com/sky-is-green/hive-memory)** — an external,
+managed-decay context-curation layer for long-horizon LLM conversations, plus
+**HiveBench**, its falsifiable evaluation suite (predictions P1–P11 with
+measured verdicts).
+
+[![CI](https://img.shields.io/github/actions/workflow/status/sky-is-green/hive-memory/ci.yml?branch=master&style=flat&label=CI&logo=githubactions)](https://github.com/sky-is-green/hive-memory/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/sky-is-green/hive-memory?style=flat&label=License)](https://github.com/sky-is-green/hive-memory/blob/master/LICENSE)
+[![Top language](https://img.shields.io/github/languages/top/sky-is-green/hive-memory?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/hive-memory)
+[![Last commit](https://img.shields.io/github/last-commit/sky-is-green/hive-memory/master?style=flat&label=Last%20commit&logo=git)](https://github.com/sky-is-green/hive-memory/commits/master)
 
 ### 🛠️ My Tech Stack & Tools
 
-* **Languages:** JavaScript, TypeScript, Python
-* **Frameworks:** React, Next.js, Pytorch
-* **Databases:** PostgreSQL, MongoDB, SQLite
+* **Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=csharp&logoColor=white)
+* **Frameworks:** ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white) ![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat&logo=godotengine&logoColor=white)
+* **Databases:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
 ### 📬 Connect With Me
 
-Reddit: [![u/BotSympathiser]([https://www.reddit.com/user/BotSympathiser]/)]
+[![Reddit](https://img.shields.io/badge/Reddit-u%2FBotSympathiser-FF4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/BotSympathiser)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-SkyIsNotGreen-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/SkyIsNotGreen)
 
-[![Hugging Face Profile](https://shields.io)](https://huggingface.co/SkyIsNotGreen)
-
+---
 
 *Note: Unless otherwise stated, the source code for my current projects is hosted in private repositories for intellectual property and security reasons.*
