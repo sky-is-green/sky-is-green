@@ -11,14 +11,14 @@ I'm a solo developer, assisted by AI, focused on long-context LLM competency:
 local-first memory techniques, portable ways of interacting with models, and
 making AI plug-&-play — an AI sysadmin capable of wiring into the host board's
 firmware-level controls. Around that research I build an ever-growing software
-suite of wired functions, tests, and logs as the testbed for the maximum
-possible capability of system/AI interaction.
+suite of wired functions, tests, and logs, as the test-bed for maximum possible
+capacity for system/AI interaction.
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
 
-**[HiveMemory](https://github.com/sky-is-green/hive-memory)** — an external,
-managed-decay context-curation layer for long-horizon LLM conversations, plus
-**HiveBench**, its falsifiable evaluation suite (predictions P1–P11 with
+**[Strata-Memory](https://github.com/sky-is-green/hivebench)** - Long-context curation-layer capable of selecting valuable context within memory, while allowing the useless context to be forgotten, by using a cheap CPU encoder. Beats FIFO in all preliminary testing. [white-paper](https://github.com/sky-is-green/Strata-memory/blob/StrataMemory-test/STRATA-WHITE-PAPER.md)
+
+**[HiveBench](https://github.com/sky-is-green/hivebench)** - Customisable harness with deep tool capabilities, capable of long-context curation using Strata-Memory with settings for fine-tune, plus the falsifiable evaluation suite Strata-Memory was built upon. (predictions P1–P11 with
 measured verdicts).
 
 [![CI](https://img.shields.io/github/actions/workflow/status/sky-is-green/hive-memory/ci.yml?branch=master&style=flat&label=CI&logo=githubactions)](https://github.com/sky-is-green/hive-memory/actions/workflows/ci.yml)
