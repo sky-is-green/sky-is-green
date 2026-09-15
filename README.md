@@ -16,7 +16,7 @@ capacity for system/AI interaction.
 
 ## 🚀 Featured Projects
 
-**[Strata-Memory](https://github.com/sky-is-green/hivebench)** - Long-context curation-layer capable of selecting valuable context within memory, while allowing the useless context to be forgotten, by using a cheap CPU encoder. Beats FIFO in all preliminary testing. [white-paper](https://github.com/sky-is-green/Strata-memory/blob/StrataMemory-test/STRATA-WHITE-PAPER.md)
+**[Strata-Memory](https://github.com/sky-is-green/hivebench)** - Long-context curation-layer capable of selecting and retaining valuable context within memory before FIFO, while allowing the useless context to be forgotten, by using a cheap CPU encoder. Beats FIFO in all preliminary testing. [white-paper](https://github.com/sky-is-green/Strata-memory/blob/StrataMemory-test/STRATA-WHITE-PAPER.md)
 
 **[HiveBench](https://github.com/sky-is-green/hivebench)** - Customisable harness with deep tool capabilities, capable of long-context curation using Strata-Memory with settings for fine-tune, plus the falsifiable evaluation suite Strata-Memory was built upon. (predictions P1–P11 with
 measured verdicts).
