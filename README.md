@@ -11,8 +11,8 @@ I'm a solo developer, assisted by AI, focused on long-context LLM competency:
 local-first memory techniques, portable ways of interacting with models, and
 making AI plug-&-play — an AI sysadmin capable of wiring into the host board's
 firmware-level controls. Around that research I build an ever-growing software
-suite of wired functions, tests, and logs, as the test-bed for maximum possible
-capacity for system/AI interaction.
+suite of wired functions, tests, and logs, as the test-bed for bare-metal performance
+of AI on Linux.
 
 ## 🚀 Featured Projects
 
