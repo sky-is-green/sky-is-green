@@ -21,7 +21,6 @@ of AI on Linux.
 **[HiveBench](https://github.com/sky-is-green/hivebench)** - Customisable harness with deep tool capabilities, capable of long-context curation using Strata-Memory with settings for fine-tune, plus the falsifiable evaluation suite Strata-Memory was built upon. (predictions P1–P11 with
 measured verdicts).
 
-[![CI](https://img.shields.io/github/actions/workflow/status/sky-is-green/hive-memory/ci.yml?branch=master&style=flat&label=CI&logo=githubactions)](https://github.com/sky-is-green/hive-memory/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/sky-is-green/hive-memory?style=flat&label=License)](https://github.com/sky-is-green/hive-memory/blob/master/LICENSE)
 [![Top language](https://img.shields.io/github/languages/top/sky-is-green/hive-memory?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/hive-memory)
 [![Last commit](https://img.shields.io/github/last-commit/sky-is-green/hive-memory/master?style=flat&label=Last%20commit&logo=git)](https://github.com/sky-is-green/hive-memory/commits/master)
