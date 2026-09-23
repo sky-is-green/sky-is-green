@@ -27,7 +27,8 @@ measured verdicts).
 [![Top language](https://img.shields.io/github/languages/top/sky-is-green/hivebench?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/hivebench)
 [![Last commit](https://img.shields.io/github/last-commit/sky-is-green/hivebench/main?style=flat&label=Last%20commit&logo=git)](https://github.com/sky-is-green/hivebench/commits/main)
 
-### 🛠️ My Tech Stack & Tools
+
+## 🛠️ My Tech Stack & Tools
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
 
@@ -37,8 +38,8 @@ measured verdicts).
 
 ### 📬 Connect With Me
 
-[![Reddit](https://img.shields.io/badge/Reddit-u%2FBotSympathiser-FF4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/BotSympathiser)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-SkyIsNotGreen-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/SkyIsNotGreen)
+[![Reddit](https://img.shields.io/badge/Reddit-u%2FBotSympathiser-FF4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/BotSympathiser)
 
 ---
 
