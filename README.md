@@ -18,9 +18,9 @@ of AI on Linux.
 
 **[Splinter-Memory](https://github.com/sky-is-green/Splinter-memory)** - Long-context curation-layer capable of selecting and retaining valuable context within memory before FIFO, while allowing the useless context to be forgotten, by using a cheap CPU encoder. Beats FIFO in all preliminary testing. [white-paper](https://github.com/sky-is-green/Strata-memory/blob/StrataMemory-test/STRATA-WHITE-PAPER.md)
 
-[![License](https://img.shields.io/github/license/sky-is-green/Strata-memory?style=flat&label=License)](https://github.com/sky-is-green/Strata-memory/blob/StrataMemory-test/LICENSE)
-[![Top language](https://img.shields.io/github/languages/top/sky-is-green/Strata-memory?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/Strata-memory)
-[![Last commit](https://img.shields.io/github/last-commit/sky-is-green/Strata-memory/StrataMemory-test?style=flat&label=Last%20commit&logo=git)](https://github.com/sky-is-green/Strata-memory/commits/StrataMemory-test)
+[![License](https://img.shields.io/github/license/sky-is-green/Splinter-memory?style=flat&label=License)](https://github.com/sky-is-green/Strata-memory/blob/SplinterMemory-test/LICENSE)
+[![Top language](https://img.shields.io/github/languages/top/sky-is-green/Splinter-memory?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/Splinter-memory)
+[![Last commit](https://img.shields.io/github/last-commit/sky-is-green/Splinter-memory/SplinterMemory-test?style=flat&label=Last%20commit&logo=git)](https://github.com/sky-is-green/Splinter-memory/commits/SplinterMemory-test)
 
 **[HiveBench](https://github.com/sky-is-green/hivebench)** - Customisable harness with deep tool capabilities, capable of long-context curation using Strata-Memory with settings for fine-tune, plus the falsifiable evaluation suite Strata-Memory was built upon. (predictions P1–P11 with
 measured verdicts).
