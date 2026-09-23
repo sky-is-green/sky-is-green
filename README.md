@@ -16,7 +16,7 @@ of AI on Linux.
 
 ## 🚀 Featured Projects
 
-**[Strata-Memory](https://github.com/sky-is-green/Strata-memory)** - Long-context curation-layer capable of selecting and retaining valuable context within memory before FIFO, while allowing the useless context to be forgotten, by using a cheap CPU encoder. Beats FIFO in all preliminary testing. [white-paper](https://github.com/sky-is-green/Strata-memory/blob/StrataMemory-test/STRATA-WHITE-PAPER.md)
+**[Splinter-Memory](https://github.com/sky-is-green/Splinter-memory)** - Long-context curation-layer capable of selecting and retaining valuable context within memory before FIFO, while allowing the useless context to be forgotten, by using a cheap CPU encoder. Beats FIFO in all preliminary testing. [white-paper](https://github.com/sky-is-green/Strata-memory/blob/StrataMemory-test/STRATA-WHITE-PAPER.md)
 
 [![License](https://img.shields.io/github/license/sky-is-green/Strata-memory?style=flat&label=License)](https://github.com/sky-is-green/Strata-memory/blob/StrataMemory-test/LICENSE)
 [![Top language](https://img.shields.io/github/languages/top/sky-is-green/Strata-memory?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/Strata-memory)
