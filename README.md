@@ -16,9 +16,8 @@ of AI on Linux.
 
 ## 🚀 Featured Projects
 
-**[Splinter-Memory](https://github.com/sky-is-green/Splinter-memory)** - Long-context curation-layer capable of selecting and retaining valuable context within memory before FIFO, while allowing the useless context to be forgotten, by using a cheap CPU encoder. Beats FIFO in all preliminary testing. [white-paper](https://github.com/sky-is-green/Strata-memory/blob/StrataMemory-test/STRATA-WHITE-PAPER.md)
+**[Splinter-Memory](https://github.com/sky-is-green/Splinter-memory)** - Long-context curation-layer capable of selecting and retaining valuable context within memory before FIFO, while allowing the useless context to be forgotten, by using a cheap CPU encoder. Beats FIFO in all preliminary testing. [white-paper](https://github.com/sky-is-green/splinter-memory/blob/SplinterMemory-test/SPLINTER-WHITE-PAPER.md)
 
-[![License](https://img.shields.io/github/license/sky-is-green/Splinter-memory?style=flat&label=License)](https://github.com/sky-is-green/Strata-memory/blob/SplinterMemory-test/LICENSE)
 [![Top language](https://img.shields.io/github/languages/top/sky-is-green/Splinter-memory?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/Splinter-memory)
 [![Last commit](https://img.shields.io/github/last-commit/sky-is-green/Splinter-memory/SplinterMemory-test?style=flat&label=Last%20commit&logo=git)](https://github.com/sky-is-green/Splinter-memory/commits/SplinterMemory-test)
 
@@ -27,7 +26,6 @@ measured verdicts).
 
 [![Top language](https://img.shields.io/github/languages/top/sky-is-green/hivebench?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/hivebench)
 [![Last commit](https://img.shields.io/github/last-commit/sky-is-green/hivebench/main?style=flat&label=Last%20commit&logo=git)](https://github.com/sky-is-green/hivebench/commits/main)
-[![Repo size](https://img.shields.io/github/repo-size/sky-is-green/hivebench?style=flat&label=Repo%20size)](https://github.com/sky-is-green/hivebench)
 
 ### 🛠️ My Tech Stack & Tools
 
