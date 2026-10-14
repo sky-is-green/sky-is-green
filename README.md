@@ -21,7 +21,7 @@ of AI on Linux.
 [![Top language](https://img.shields.io/github/languages/top/sky-is-green/scion?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/scion)
 [![Last commit](https://img.shields.io/github/last-commit/sky-is-green/scion/main?style=flat&label=Last%20commit&logo=git)](https://github.com/sky-is-green/scion/commits/main)
 
-**[HiveBench](https://github.com/sky-is-green/hivebench)** - Customisable harness with deep tool capabilities, capable of long-context curation using Strata-Memory with settings for fine-tune, plus the falsifiable evaluation suite Splinter-Memory was built upon and the test harness behind the Scion quantization releases (predictions P1–P11 with
+**[HiveBench](https://github.com/sky-is-green/hivebench)** - Customisable harness with deep tool capabilities, capable of long-context curation using splinter-Memory with settings for fine-tune, plus the falsifiable evaluation suite Splinter-Memory was built upon and the test harness behind the Scion quantization releases (predictions P1–P11 with
 measured verdicts).
 
 [![Top language](https://img.shields.io/github/languages/top/sky-is-green/hivebench?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/hivebench)
