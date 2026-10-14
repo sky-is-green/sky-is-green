@@ -16,12 +16,12 @@ of AI on Linux.
 
 ## 🚀 Featured Projects
 
-**[Splinter-Memory](https://github.com/sky-is-green/Splinter-memory)** - Long-context curation-layer capable of selecting and retaining valuable context within memory before FIFO, while allowing the useless context to be forgotten, by using a cheap CPU encoder. Beats FIFO in all preliminary testing. [white-paper](https://github.com/sky-is-green/splinter-memory/blob/SplinterMemory-test/SPLINTER-WHITE-PAPER.md)
+**[Scion](https://github.com/sky-is-green/scion)** - Ternary quantization with trained corrections: ternarise the expert banks of a pretrained MoE in place, then recover the routing damage with small residual-stream corrections and router deltas trained by output-KD with the deployed quantizer in the loop. Ships **[Scion-35B-A3B](https://huggingface.co/SkyIsNotGreen/Scion-35B-A3B)** (11.34 GB / 2.61 bpw) and **[Scion-FlashNext-176B-A6B](https://huggingface.co/SkyIsNotGreen/Scion-FlashNext-176B-A6B)** (60.17 GB / 2.72 bpw), with task accuracy inside the ±2% noise band and the best PPL of the 2-bit class on preliminary testing.
 
-[![Top language](https://img.shields.io/github/languages/top/sky-is-green/Splinter-memory?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/Splinter-memory)
-[![Last commit](https://img.shields.io/github/last-commit/sky-is-green/Splinter-memory/SplinterMemory-test?style=flat&label=Last%20commit&logo=git)](https://github.com/sky-is-green/Splinter-memory/commits/SplinterMemory-test)
+[![Top language](https://img.shields.io/github/languages/top/sky-is-green/scion?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/scion)
+[![Last commit](https://img.shields.io/github/last-commit/sky-is-green/scion/main?style=flat&label=Last%20commit&logo=git)](https://github.com/sky-is-green/scion/commits/main)
 
-**[HiveBench](https://github.com/sky-is-green/hivebench)** - Customisable harness with deep tool capabilities, capable of long-context curation using Strata-Memory with settings for fine-tune, plus the falsifiable evaluation suite Splinter-Memory was built upon. (predictions P1–P11 with
+**[HiveBench](https://github.com/sky-is-green/hivebench)** - Customisable harness with deep tool capabilities, capable of long-context curation using Strata-Memory with settings for fine-tune, plus the falsifiable evaluation suite Splinter-Memory was built upon and the test harness behind the Scion quantization releases (predictions P1–P11 with
 measured verdicts).
 
 [![Top language](https://img.shields.io/github/languages/top/sky-is-green/hivebench?style=flat&logo=python&logoColor=white)](https://github.com/sky-is-green/hivebench)
