@@ -12,22 +12,14 @@ jobs:
   count:
     runs-on: ubuntu-latest
     steps:
-      - name: count private repos
-        id: q
+      - uses: actions/checkout@v4
+      - name: what can this token see?
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          set -e
-          n=$(gh api graphql -f query='{ viewer { repositories(privacy: PRIVATE, ownerAffiliations: OWNER) { totalCount } } }' --jq '.data.viewer.repositories.totalCount')
-          echo "count=$n" >> "$GITHUB_OUTPUT"
-          echo "private repos: $n"
-      - name: write the count
-        env:
-          COUNT: ${{ steps.q.outputs.count }}
-        run: |
-          printf '{\n  "count": %s\n}\n' "$COUNT" > private-repos.json
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add private-repos.json
-          git diff --cached --quiet || git commit -m "chore: refresh the private repo count"
-          git push
+          echo "--- viewer:"
+          gh api graphql -f query='{ viewer { login repositories(privacy: PRIVATE, ownerAffiliations: OWNER) { totalCount } } }' || true
+          echo "--- user(login):"
+          gh api graphql -f query='{ user(login: "sky-is-green") { repositories(privacy: PRIVATE, ownerAffiliations: OWNER) { totalCount } } }' || true
+          echo "--- rest /user:"
+          gh api /user --jq '{private: .total_private_repos, public: .public_repos}' || true
