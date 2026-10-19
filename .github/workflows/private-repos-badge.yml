@@ -13,13 +13,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: what can this token see?
+      - name: count private repos
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          echo "--- viewer:"
-          gh api graphql -f query='{ viewer { login repositories(privacy: PRIVATE, ownerAffiliations: OWNER) { totalCount } } }' || true
-          echo "--- user(login):"
-          gh api graphql -f query='{ user(login: "sky-is-green") { repositories(privacy: PRIVATE, ownerAffiliations: OWNER) { totalCount } } }' || true
-          echo "--- rest /user:"
-          gh api /user --jq '{private: .total_private_repos, public: .public_repos}' || true
+          set -euo pipefail
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::warning::no GH_PAT secret; leaving private-repos.json as it is"
+            exit 0
+          fi
+          n=$(gh api graphql \
+            -f query='{ viewer { repositories(privacy: PRIVATE, ownerAffiliations: OWNER) { totalCount } } }' \
+            --jq '.data.viewer.repositories.totalCount')
+          echo "private repos: $n"
+          printf '{\n  "count": %s\n}\n' "$n" > private-repos.json
+      - name: commit the count
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add private-repos.json
+          git diff --cached --quiet || git commit -m "chore: refresh the private repo count"
+          git push
