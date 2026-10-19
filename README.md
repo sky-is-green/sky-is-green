@@ -2,18 +2,12 @@
 
 # 🌍 sky-is-green
 
-*Taking systems apart, analysing them, and rebuilding them smaller.*
+*Taking systems apart, analysing them, and rebuilding them smaller, better, faster, **stronger**.*
 
 Independent LLM researcher focused on: long-horizon memory, ternary quantization,
 LLM forensics & analysis, local-hosting on consumer hardware, and more.
 
-<a href="https://sky-is-green.github.io/"><img src="https://raw.githubusercontent.com/sky-is-green/sky-is-green.github.io/main/assets/qr/avatar-512.png" width="180" alt="QR code pointing at the interactive portfolio" /></a>
-
-### → **[the interactive portfolio](https://sky-is-green.github.io/)**
-
-The scan above opens it: a phosphor-green one-pager where the work list is a
-drum you scroll, the open projects slide sideways, and the arcade is playable.
-Everything on it is built from the repos below.
+### → **[Interactive portfolio](https://sky-is-green.github.io/)**
 
 [![GitHub followers](https://img.shields.io/github/followers/sky-is-green?style=flat&label=Followers&logo=github)](https://github.com/sky-is-green?tab=followers)
 [![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsky-is-green&query=%24.public_repos&style=flat&label=Public%20repos&logo=github)](https://github.com/sky-is-green?tab=repositories)
@@ -35,23 +29,6 @@ Everything on it is built from the repos below.
 [Live on the site](https://sky-is-green.github.io/pixelqr/).
 
 **[Strata](https://github.com/sky-is-green/Strata)** — Kernel fusions and speculative decoding in the Strata inference engine (fork work).
-
-## 📂 Public repos
-
-| repo | what it is | language |
-| --- | --- | --- |
-| [scion](https://github.com/sky-is-green/scion) | Ternary MoE quantization with trained corrections — harness + docs behind Scion-35B-A3B | Python |
-| [splinter-memory](https://github.com/sky-is-green/splinter-memory) | An external, managed-decay context-curation layer for long-horizon LLM conversations | Python |
-| [hivebench](https://github.com/sky-is-green/hivebench) | Evaluation suite for Splinter Memory (tests, testing, experiments) | Python |
-| [bonsai2-ternary-forensics](https://github.com/sky-is-green/bonsai2-ternary-forensics) | Independent forensics of Bonsai 2 27B ternary quantization: format and basis recovery, the trained-weights residual, and the public PTQ calibration artifact | Python |
-| [pixelqr](https://github.com/sky-is-green/pixelqr) | Pixel art that becomes a real, scannable QR code — a writable-canvas art-QR engine: zero random cells inside the drawing area, free payload-bit solving (GF(2)), six decode-verified render styles, no build step, no dependencies | JavaScript |
-| [scrollpeak](https://github.com/sky-is-green/scrollpeak) | A scrollbar minimap for Firefox. Hover the scrollbar to see the whole page, magnify a section, click to jump | Python |
-| [sky-is-green.github.io](https://github.com/sky-is-green/sky-is-green.github.io) | The portfolio — plan, avatar prototypes, and the site itself. Interactive piece built on PixelQR | JavaScript |
-| [Strata](https://github.com/sky-is-green/Strata) | *(fork)* Qwen3.8-Flash-Next on any consumer hardware — Strata inference engine, OpenAI/Anthropic API on localhost | C++ |
-| [prism-ml-llama.cpp](https://github.com/sky-is-green/prism-ml-llama.cpp) | *(fork)* LLM inference in C/C++ — MoE expert-residency and kernel-fusion experiments | C++ |
-| [deepseek-harness](https://github.com/sky-is-green/deepseek-harness) | *(fork)* DeepSeek Harness: Everything is a Plugin — plugin and tooling work | TypeScript |
-| [autogrid](https://github.com/sky-is-green/autogrid) | *(fork)* Turn any model into a full-size Ternary INTEGER model, free where the noise-floor math says it's free | Python |
-| [huggingface.js](https://github.com/sky-is-green/huggingface.js) | *(fork)* Use Hugging Face with JavaScript | TypeScript |
 
 ## 🛠️ My tech stack & tools
 
