@@ -27,7 +27,7 @@ LLM forensics & analysis, local-hosting on consumer hardware, and more.
 
 **[Strata](https://github.com/sky-is-green/Strata)** — Kernel fusions and speculative decoding in the Strata inference engine that makes it work with hive-bench (fork work).
 
-## 🛠️ My tech stack & tools
+## 🛠️ My tech-stack & tools
 
 **LLM & ML**
 
