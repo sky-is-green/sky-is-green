@@ -11,7 +11,7 @@
 Independent LLM researcher focused on: long-horizon memory, ternary quantization,
 LLM forensics & analysis, local-hosting on consumer hardware, and more.
 
-### → **[Interactive portfolio](https://sky-is-green.github.io/)**
+### **[Interactive portfolio](https://sky-is-green.github.io/)**
 
 
 ## 🚀 Featured projects
