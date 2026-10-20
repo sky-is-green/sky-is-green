@@ -16,20 +16,16 @@ LLM forensics & analysis, local-hosting on consumer hardware, and more.
 
 ## 🚀 Featured projects
 
-**[Scion](https://github.com/sky-is-green/scion)** — Ternary MoE quantization with trained corrections — the harness behind the released
+**[Scion](https://github.com/sky-is-green/scion)** — Source, Notes, Tests, Parameters, Calculations and Formulas that helped build a working recipe for the Scion series of LLM's I've quantized and fine-tuned.
 [Scion-35B-A3B](https://huggingface.co/SkyIsNotGreen/Scion-35B-A3B) and
 [Scion-FlashNext-176B-A6B](https://huggingface.co/SkyIsNotGreen/Scion-FlashNext-176B-A6B).
 
-**[Splinter Memory](https://github.com/sky-is-green/splinter-memory)** — An external, managed-decay context-curation layer for long-horizon LLM conversations.
-
-**[HiveBench](https://github.com/sky-is-green/hivebench)** — Evaluation suite and Studio sidecar for Splinter Memory.
-
-**[Bonsai 2 ternary forensics](https://github.com/sky-is-green/bonsai2-ternary-forensics)** — Independent forensics on Bonsai 2 27B — recovering a ~2 bpw ternary model's format, basis, and quality gap.
+**[HiveBench](https://github.com/sky-is-green/hivebench)** — LLM evaluation suite-harness for; A/B testing, Slot-able encoder-sized LLM for harness-based controls like RAG and long-context curation, switchable inference-engine based controls, model fine-tuning, Agent-loop control (API or local).
 
 **[PixelQR](https://github.com/sky-is-green/pixelqr)** — Pixel art that becomes a real, scannable QR code.
 [Live on the site](https://sky-is-green.github.io/pixelqr/).
 
-**[Strata](https://github.com/sky-is-green/Strata)** — Kernel fusions and speculative decoding in the Strata inference engine (fork work).
+**[Strata](https://github.com/sky-is-green/Strata)** — Kernel fusions and speculative decoding in the Strata inference engine that makes it work with hive-bench (fork work).
 
 ## 🛠️ My tech stack & tools
 
