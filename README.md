@@ -6,9 +6,9 @@
 [![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsky-is-green&query=%24.public_repos&style=flat&label=Public%20repos&logo=github)](https://github.com/sky-is-green?tab=repositories)
 [![Private repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsky-is-green%2Fsky-is-green%2Fmain%2Fprivate-repos.json&query=%24.count&style=flat&label=Private%20repos&logo=github)](https://github.com/sky-is-green?tab=repositories)
 
-*Taking systems apart, analysing them, and rebuilding them smaller, better, faster, **stronger**.*
+*Modularity, small footprint, and easy readability are the targets I use for all of my projects.*
 
-Independent LLM researcher focused on: long-horizon memory, ternary quantization,
+Independent software engineer focused on: long-horizon memory, ternary quantization,
 LLM forensics & analysis, local-hosting on consumer hardware, and more.
 
 ### **[Interactive portfolio](https://sky-is-green.github.io/)**
