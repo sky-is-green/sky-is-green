@@ -1,4 +1,4 @@
-### Hi there, I'm Ricky 👋
+### Hi, I'm Ricky 👋
 
 # 🌍 sky-is-green
 
@@ -16,11 +16,11 @@ LLM forensics & analysis, local-hosting on consumer hardware, and more.
 
 ## 🚀 Featured projects
 
-**[Scion](https://github.com/sky-is-green/scion)** — Source, Notes, Tests, Parameters, Calculations and Formulas that helped build a working recipe for the Scion series of LLM's I've quantized and fine-tuned.
+**[Scion](https://github.com/sky-is-green/scion)** — Source, Notes, Tests, Parameters, Calculations and Formulas that helped build a working recipe for the Scion series of LLM's I have quantized and fine-tuned via rented GPU's and local training, all recorded.
 [Scion-35B-A3B](https://huggingface.co/SkyIsNotGreen/Scion-35B-A3B) and
 [Scion-FlashNext-176B-A6B](https://huggingface.co/SkyIsNotGreen/Scion-FlashNext-176B-A6B).
 
-**[HiveBench](https://github.com/sky-is-green/hivebench)** — LLM evaluation suite-harness for; A/B testing, Slot-able encoder-sized LLM for harness-based controls like RAG and long-context curation, switchable inference-engine based controls, model fine-tuning, Agent-loop control (API or local).
+**[HiveBench](https://github.com/sky-is-green/hivebench)** — LLM evaluation suite-harness for; A/B testing, re-slottable encoder-sized LLM for harness-based controls like RAG and long-context curation, switchable inference-engine based controls, model fine-tuning, Agent-loop control (API or local).
 
 **[PixelQR](https://github.com/sky-is-green/pixelqr)** — Pixel art that becomes a real, scannable QR code.
 [Live on the site](https://sky-is-green.github.io/pixelqr/).
