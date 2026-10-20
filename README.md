@@ -13,6 +13,7 @@ LLM forensics & analysis, local-hosting on consumer hardware, and more.
 
 ### **[Interactive portfolio](https://sky-is-green.github.io/)**
 
+<a href="https://sky-is-green.github.io/"><img src="https://raw.githubusercontent.com/sky-is-green/sky-is-green.github.io/main/assets/qr/avatar-512.png" width="180" alt="QR code pointing at the interactive portfolio" /></a>
 
 ## 🚀 Featured projects
 
