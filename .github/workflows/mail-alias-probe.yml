@@ -1,0 +1,37 @@
+name: mail alias probe
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: which local parts does the MX accept?
+        run: |
+          python3 - <<'PY'
+          import smtplib, random, string
+          rnd = ''.join(random.choice(string.ascii_lowercase) for _ in range(10))
+          cands = [
+              'contact@skyisgreen.com',          # published on the aurora site
+              'contact+%s@skyisgreen.com' % rnd,  # sub-addressing
+              '%s@skyisgreen.com' % rnd,          # catch-all
+              'contact@lsfg-vk.dev',              # the other domain
+              'zz-definitely-not-a-real-alias@skyisgreen.com',
+          ]
+          for rcpt in cands:
+              code, resp = None, None
+              try:
+                  s = smtplib.SMTP('mx1.improvmx.com', 25, timeout=40)
+                  s.ehlo('probe.invalid')
+                  s.mail('probe@example.invalid')
+                  code, resp = s.rcpt(rcpt)
+                  s.rset()
+                  s.quit()
+              except Exception as e:
+                  code, resp = 'ERR', repr(e)
+              print('%-45s -> %s %s' % (rcpt, code, resp))
+          PY
