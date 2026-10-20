@@ -13,25 +13,43 @@ jobs:
       - name: which local parts does the MX accept?
         run: |
           python3 - <<'PY'
-          import smtplib, random, string
+          import socket, random, string
+          def rd(f):
+              out = []
+              while True:
+                  line = f.readline().decode('utf-8', 'replace').rstrip('\r\n')
+                  if not line:
+                      break
+                  out.append(line)
+                  if len(line) < 4 or line[3] != '-':
+                      break
+              return out
           rnd = ''.join(random.choice(string.ascii_lowercase) for _ in range(10))
           cands = [
-              'contact@skyisgreen.com',          # published on the aurora site
-              'contact+%s@skyisgreen.com' % rnd,  # sub-addressing
-              '%s@skyisgreen.com' % rnd,          # catch-all
-              'contact@lsfg-vk.dev',              # the other domain
-              'zz-definitely-not-a-real-alias@skyisgreen.com',
+              ('exact alias',        'contact@skyisgreen.com'),
+              ('sub-address',        'contact+%s@skyisgreen.com' % rnd),
+              ('random local part',  '%s@skyisgreen.com' % rnd),
+              ('clearly bogus',      'zz-definitely-not-a-real-alias@skyisgreen.com'),
+              ('other domain',       'contact@lsfg-vk.dev'),
           ]
-          for rcpt in cands:
-              code, resp = None, None
-              try:
-                  s = smtplib.SMTP('mx1.improvmx.com', 25, timeout=40)
-                  s.ehlo('probe.invalid')
-                  s.mail('probe@example.invalid')
-                  code, resp = s.rcpt(rcpt)
-                  s.rset()
-                  s.quit()
-              except Exception as e:
-                  code, resp = 'ERR', repr(e)
-              print('%-45s -> %s %s' % (rcpt, code, resp))
+          for label, rcpt in cands:
+              s = socket.create_connection(('mx1.improvmx.com', 25), timeout=40)
+              s.settimeout(40)
+              f = s.makefile('rwb')
+              banner = rd(f)[0]
+              f.write(b'HELO probe.invalid\r\n'); helo = rd(f)[0]
+              f.write(b'MAIL FROM:<probe@example.invalid>\r\n'); mail = rd(f)[0]
+              f.write(('RCPT TO:<%s>\r\n' % rcpt).encode()); resp = rd(f)[0]
+              f.write(b'QUIT\r\n'); rd(f); s.close()
+              print('%-18s %-45s | %s | %s | %s' % (label, rcpt, helo[:40], mail[:30], resp[:90]))
+          print()
+          print('--- lsfg-vk.dev is mailbox.org, a different server:')
+          s = socket.create_connection(('mxext1.mailbox.org', 25), timeout=40)
+          s.settimeout(40)
+          f = s.makefile('rwb')
+          print('banner:', rd(f)[0])
+          f.write(b'HELO probe.invalid\r\n'); print('helo:', rd(f)[0])
+          f.write(b'MAIL FROM:<probe@example.invalid>\r\n'); print('mail:', rd(f)[0])
+          f.write(('RCPT TO:<contact+%s@lsfg-vk.dev>\r\n' % rnd).encode()); print('rcpt:', rd(f)[0])
+          f.write(b'QUIT\r\n'); rd(f); s.close()
           PY
