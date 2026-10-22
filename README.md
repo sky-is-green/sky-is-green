@@ -8,24 +8,31 @@
 
 *Modularity, small footprint, and easy readability are the targets I use for all of my projects.*
 
-Independent software engineer focused on: long-horizon memory, ternary quantization,
-LLM forensics & analysis, local-hosting on consumer hardware, and more.
+Independent software engineer focused on: long-horizon memory, verification
+and routing for local models, ternary quantization, LLM forensics & analysis,
+local hosting on consumer hardware, and more.
 
 ### **[Interactive portfolio](https://sky-is-green.github.io/)**
 
 
 ## 🚀 Featured projects
 
-**[Scion](https://github.com/sky-is-green/scion)** — Source, Notes, Tests, Parameters, Calculations and Formulas that helped build a working recipe for the Scion series of LLM's I have quantized and fine-tuned via rented GPU's and local training, all recorded.
+**[Hive](https://github.com/sky-is-green/hive)** — a local-first stack for memory, verification, and routing in language models. The repo holds [Splinter Memory](https://github.com/sky-is-green/hive/blob/main/splinter/SPLINTER-WHITE-PAPER.md), [The Hive Cascade](https://github.com/sky-is-green/hive/blob/main/cascade/CASCADE-PAPER.md), and HiveBench, the evaluation suite that measures both.
+[Papers below](#-papers) · [Visual companion](https://huggingface.co/spaces/SkyIsNotGreen/hive-cascade-paper).
+
+**[Scion](https://github.com/sky-is-green/scion)** — source, notes, tests, parameters, calculations and formulas behind the Scion series of LLMs I quantized and fine-tuned on rented GPUs and locally, all recorded.
 [Scion-35B-A3B](https://huggingface.co/SkyIsNotGreen/Scion-35B-A3B) and
 [Scion-FlashNext-176B-A6B](https://huggingface.co/SkyIsNotGreen/Scion-FlashNext-176B-A6B).
 
-**[HiveBench](https://github.com/sky-is-green/hivebench)** — LLM evaluation suite-harness for; A/B testing, re-slottable encoder-sized LLM for harness-based controls like RAG and long-context curation, switchable inference-engine based controls, model fine-tuning, Agent-loop control (API or local).
-
-**[PixelQR](https://github.com/sky-is-green/pixelqr)** — Pixel art that becomes a real, scannable QR code.
+**[PixelQR](https://github.com/sky-is-green/pixelqr)** — pixel art that becomes a real, scannable QR code.
 [Live on the site](https://sky-is-green.github.io/pixelqr/).
 
-**[Strata](https://github.com/sky-is-green/Strata)** — Kernel fusions and speculative decoding in the Strata inference engine that makes it work with hive-bench (fork work).
+**[Strata](https://github.com/sky-is-green/Strata)** — kernel fusions and speculative decoding in the Strata inference engine that makes it work with HiveBench (fork work).
+
+## 📄 Papers
+
+- **[Splinter Memory](https://github.com/sky-is-green/hive/blob/main/splinter/SPLINTER-WHITE-PAPER.md)** — managed-decay context curation for long-horizon conversations: the bounded context, the encoder fleet, the measured verdicts and the negative results.
+- **[The Hive Cascade](https://github.com/sky-is-green/hive/blob/main/cascade/CASCADE-PAPER.md)** — a gold-free verification-and-repair loop for local models: solve → detect → repair → escalate, with the controller contract and the measured tier table. [Visual companion](https://huggingface.co/spaces/SkyIsNotGreen/hive-cascade-paper).
 
 ## 🛠️ My tech-stack & tools
 
@@ -53,4 +60,4 @@ LLM forensics & analysis, local-hosting on consumer hardware, and more.
 
 ---
 
-*Note: Unless otherwise stated, the source code for my current projects is hosted in private repositories for intellectual property and security reasons.*
+*Hive is public. Some engine and experimental work remains in private repositories while it is in progress.*
