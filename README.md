@@ -23,7 +23,7 @@ Currently working on routing logic/pipelines and fine-tuning small encoders trai
 **[PixelQR](https://github.com/sky-is-green/pixelqr)** — pixel art that becomes a real, scannable QR code.
 [Live on the site](https://sky-is-green.github.io/pixelqr/).
 
-**[Strata](https://github.com/sky-is-green/Strata)** — kernel fusions and speculative decoding in the Strata inference engine that makes it work with HiveBench (fork work).
+**[openfg](https://github.com/sky-is-green/openfg)** — MIT-licensed optical-flow frame generation for Linux: an original C++/GLSL backend and Vulkan layer with 2×/3×/4× insertion, same-GPU and cross-GPU DMA-BUF, adaptive target FPS, and no Lossless Scaling dependency.
 
 ## 📄 Papers
 
