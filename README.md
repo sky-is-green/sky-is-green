@@ -23,8 +23,7 @@ Currently working on routing logic/pipelines and fine-tuning small encoders trai
 **[PixelQR](https://github.com/sky-is-green/pixelqr)** — pixel art that becomes a real, scannable QR code.
 [Live on the site](https://sky-is-green.github.io/pixelqr/).
 
-**[openfg](https://github.com/sky-is-green/openfg)** — MIT-licensed optical-flow frame generation for Linux: an original C++/GLSL backend and Vulkan layer with 2×/3×/4× insertion, same-GPU and cross-GPU DMA-BUF, adaptive target FPS, and no Lossless Scaling dependency.
-
+**[OpenFG](https://github.com/sky-is-green/openfg)** — MIT-licensed optical-flow frame generation for Linux: an original C++/GLSL backend and Vulkan layer with 2×/3×/4× insertion, same-GPU and cross-GPU DMA-BUF, and adaptive target FPS that won't start FG until below the threshold.
 ## 📄 Papers
 
 - **[Splinter Memory](https://github.com/sky-is-green/hive/blob/main/splinter/SPLINTER-WHITE-PAPER.md)** — managed-decay context curation for long-horizon conversations: the bounded context, the encoder fleet, the measured verdicts and the negative results.
