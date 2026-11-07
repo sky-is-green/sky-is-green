@@ -28,7 +28,7 @@
 
 - **[Splinter Memory](https://github.com/sky-is-green/hive/blob/main/splinter/SPLINTER-WHITE-PAPER.md)** — managed-decay context curation for long-horizon conversations: the bounded context, the encoder fleet, the measured verdicts and the negative results.
 - **[The Hive Cascade](https://github.com/sky-is-green/hive/blob/main/cascade/CASCADE-PAPER.md)** — a gold-free verification-and-repair loop for local models: solve → detect → repair → escalate, with the controller contract and the measured tier table. [Visual companion](https://huggingface.co/spaces/SkyIsNotGreen/hive-cascade-paper).
-- **[OpenFG](https://github.com/sky-is-green/openfg/blob/main/docs/WHITEPAPER.md)** — frame generation for Vulkan on Linux: an MIT-licensed optical-flow layer with 2×/3×/4× insertion, same-GPU and same-vendor cross-GPU transport, a static-UI mask for HUD text, and measured RDNA3 results.
+- **[OpenFG](https://github.com/sky-is-green/openfg/blob/main/docs/OPENFG-WHITEPAPER.md)** — frame generation for Vulkan on Linux: an MIT-licensed optical-flow layer with 2×/3×/4× insertion, same-GPU and same-vendor cross-GPU transport, a static-UI mask for HUD text, and measured RDNA3 results.
 
 ## 🛠️ My tech-stack & tools
 
