@@ -6,7 +6,7 @@
 [![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsky-is-green&query=%24.public_repos&style=flat&label=Public%20repos&logo=github)](https://github.com/sky-is-green?tab=repositories)
 [![Private repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsky-is-green%2Fsky-is-green%2Fmain%2Fprivate-repos.json&query=%24.count&style=flat&label=Private%20repos&logo=github)](https://github.com/sky-is-green?tab=repositories)
 
-*Currently working on: Reproducible long-horizon reasoning, accuracy and stability tests for LLM's.*
+*Currently working on: Reproducible long-horizon reasoning, accuracy and stability tests for LLM's and the harnesses/engines that run them.*
 
 ### **[Interactive portfolio](https://sky-is-green.github.io/)**
 
