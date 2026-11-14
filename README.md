@@ -56,4 +56,4 @@
 
 ---
 
-*Hive is public. Some engine and experimental work remains in private repositories while it's in progress.*
+*Some experimental/personal work remains in private repositories while it's in progress.*
