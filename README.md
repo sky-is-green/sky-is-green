@@ -51,6 +51,7 @@
 
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-SkyIsNotGreen-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/SkyIsNotGreen)
 [![Portfolio](https://img.shields.io/badge/Portfolio-sky--is--green.github.io-5df08a?style=flat&logo=github)](https://sky-is-green.github.io/)
+[![Reddit](https://img.shields.io/badge/Reddit-u%2FRobotSympathiser-FF4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/RobotSympathiser)
 
 ---
 
