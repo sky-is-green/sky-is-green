@@ -6,7 +6,7 @@
 [![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsky-is-green&query=%24.public_repos&style=flat&label=Public%20repos&logo=github)](https://github.com/sky-is-green?tab=repositories)
 [![Private repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsky-is-green%2Fsky-is-green%2Fmain%2Fprivate-repos.json&query=%24.count&style=flat&label=Private%20repos&logo=github)](https://github.com/sky-is-green?tab=repositories)
 
-*Currently working on: 35b Scion v2 training, and OpenFG; open-source pipelines for neural FG/upscaling, and lots of other neat features!!*
+*Currently working on: 35b Scion v2 training, and OpenFG; open-source pipelines for neural FG/upscaling training, and lots of other neat features!!*
 ### **[Interactive portfolio](https://sky-is-green.github.io/)**
 
 
